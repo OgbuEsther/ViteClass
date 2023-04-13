@@ -5,15 +5,18 @@ import './App.css'
 import Button from './components/Button'
 import Card from './components/Card'
 import Register from './pages/Auth/Register'
+import SignIn from './pages/Auth/Signin'
+import ResetPassword from './pages/Email/ResetPassword'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div style={{display: "flex" , flexWrap: "wrap" }} className="App">
-    {/* <Button title='Button' bg='black' col='white' /> */}
-    {/* <Card title='Sign Up' /> */}
-<Register />
+
+ <Register /> 
+ <SignIn /> 
+<ResetPassword />
     {/* <Card title='Sign In' />
     <Card title='OTP' />
     <Card title='Verification' /> */}

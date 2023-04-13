@@ -6,7 +6,12 @@ const ResetPassword = () => {
   return (
     <div>
         <Main>
-            <Card title='ResetPassword!!!!' buttonTitle='Sign UP' onClick={()=>{
+            <Card
+             sign={false}
+             reset={false}
+             title1="OTP"
+           
+            title='ResetPassword!!!!' buttonTitle='Reset' onClick={()=>{
               console.log("ResetPassword successfully")
             }} />
         </Main>

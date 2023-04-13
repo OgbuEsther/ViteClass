@@ -6,7 +6,14 @@ const SignIn = () => {
   return (
     <div>
         <Main>
-            <Card title='sign in Now!!!!' buttonTitle='Sign UP' onClick={()=>{
+            <Card
+             sign={true}
+             reset={false}
+           
+             title1="Your Email"
+             title2="Your Password"
+        
+            title='sign in Now!!!!' buttonTitle='Sign In' onClick={()=>{
               console.log("signed in successfully")
             }} />
         </Main>
