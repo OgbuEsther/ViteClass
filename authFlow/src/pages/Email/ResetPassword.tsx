@@ -2,19 +2,19 @@ import React from 'react'
 import styled from 'styled-components'
 import { Card } from '../../components'
 
-const Register = () => {
+const ResetPassword = () => {
   return (
     <div>
         <Main>
-            <Card title='Register Now!!!!' buttonTitle='Sign UP' onClick={()=>{
-              console.log("signed up successfully")
+            <Card title='ResetPassword!!!!' buttonTitle='Sign UP' onClick={()=>{
+              console.log("ResetPassword successfully")
             }} />
         </Main>
     </div>
   )
 }
 
-export default Register
+export default ResetPassword
 
 const Main = styled.div`
 display : flex;

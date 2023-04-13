@@ -1,13 +1,22 @@
-import React from 'react'
+import React , {useState} from 'react'
 import styled from 'styled-components';
 import { Iinput } from '../types';
 
-const InputData:React.FC<Iinput> = ({title}) => {
+const InputData:React.FC<Iinput> = ({title1 , title2 , title3 ,  sign , reset}) => {
+  // const [sign , setSign]  = useState(false)
+  // const [reset , setReset] = useState(false)
   return (
     <div>
         <Field>
           <Form>
-            <Input placeholder={title} />
+            <Input placeholder={title1} />
+         
+         {
+          sign ?    <Input placeholder={title2} /> : null
+         }
+         {
+          reset ?    <Input placeholder={title3} /> : null
+         }
           </Form>
         </Field>
     </div>

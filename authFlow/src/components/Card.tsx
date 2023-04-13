@@ -4,17 +4,15 @@ import { ICard } from "../types";
 import Button from "./Button";
 import InputData from "./Input";
 
-const Card:React.FC<ICard> = ({title}) => {
+const Card:React.FC<ICard> = ({title ,buttonTitle ,onClick}) => {
   return (
     <div>
       <Main>
         <Text>{title} </Text>
-        <InputData title="Your Name" />
-        <InputData title="Your Email" />
-        <InputData title="Your PhoneNumber" />
-        <InputData title="Your Password" />
+        <InputData  sign = {true}  reset = {true}  title1="Your Name" title2="Your Email" title3="Your Password" />
+      
 
-        <Button title="Sign Up" bg="black" col = "white" />
+        <Button onClick={onClick} buttonTitle= {buttonTitle} bg="black" col = "white" />
       </Main>
     </div>
   );

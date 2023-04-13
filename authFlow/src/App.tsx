@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Button from './components/Button'
 import Card from './components/Card'
+import Register from './pages/Auth/Register'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <div style={{display: "flex" , flexWrap: "wrap" }} className="App">
     {/* <Button title='Button' bg='black' col='white' /> */}
-    <Card title='Sign Up' />
+    {/* <Card title='Sign Up' /> */}
+<Register />
     {/* <Card title='Sign In' />
     <Card title='OTP' />
     <Card title='Verification' /> */}
