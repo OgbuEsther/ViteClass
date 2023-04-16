@@ -14,6 +14,13 @@ export interface ICard {
     title3? : string;
     sign : boolean;
     reset : boolean;
+    route : string;
+    text : string
+    path : string
+    call : boolean
+    route1 : string;
+    text1 : string
+    path1 : string
 } 
 export interface Iinput{
     title1 : string;

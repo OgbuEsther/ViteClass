@@ -18,6 +18,13 @@ const Register = () => {
           onClick={() => {
             console.log("signed up successfully");
           }}
+          route = "sign-in"
+          text = "Already Have An Account ?"
+          path = "/sign-in"
+          call = {false}
+          route1 = "Reset Password"
+          text1 = "Forgotten Your Password ?"
+          path1 = "/reset"
         />
       </Main>
     </div>

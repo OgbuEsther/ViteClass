@@ -34,8 +34,11 @@ const Input = styled.input`
   margin : 5px;
 `;
 
-const Form = styled.form``;
+const Form = styled.form`
+  display: flex;
+ flex-direction: column;
+`;
 const Field = styled.div`
   display: flex;
-  justify-content: column;
+  justify-content: center;
 `;

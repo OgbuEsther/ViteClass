@@ -15,7 +15,17 @@ const SignIn = () => {
         
             title='sign in Now!!!!' buttonTitle='Sign In' onClick={()=>{
               console.log("signed in successfully")
-            }} />
+            
+            }}
+            route = "Create One"
+            text = "Don't Have An Account ?"
+            path = "/"
+            call = {true}
+            route1 = "Reset Password"
+            text1 = "Forgotten Your Password ?"
+            path1 = "/reset"
+            />
+          
         </Main>
     </div>
   )

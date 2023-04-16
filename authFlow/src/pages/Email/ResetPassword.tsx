@@ -13,7 +13,15 @@ const ResetPassword = () => {
            
             title='ResetPassword!!!!' buttonTitle='Reset' onClick={()=>{
               console.log("ResetPassword successfully")
-            }} />
+            }}
+            route = "sign-in"
+            text = "you can sign in now! ?"
+            path = "/"
+            call = {false}
+            route1 = "sign in"
+            text1 = "i think i remember ?"
+            path1 = "/sign-in"
+            />
         </Main>
     </div>
   )
